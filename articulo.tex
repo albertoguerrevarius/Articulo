@@ -1,0 +1,107 @@
+\documentclass [a4paper, 12pt]{article} 
+
+\usepackage[spanish, english]{babel} %idioma
+\usepackage[ansinew]{inputenc} %tildes
+\usepackage[T1]{fontenc} 
+\usepackage{graphics}
+\usepackage[left=3cm,right=3cm,top=3cm,botton=3cm]{geometry} %margenes
+\usepackage{float} % para usar [H]
+\usepackage{makeidx}
+
+
+
+
+\title{Instituto Tecnológico Superior de Escárcega\\ Ingeniería en Sistemas Computacionales\\ Taller de Investigación II\\ Profesor: Ing. Manuel Arturo Suarez Amendola\\ Informe de resultados\\ 
+\\ 
+\textbf{Tema de estudio \\} 
+Prototipo de un sistema de alerta y seguridad para automovilistas en diferentes casos de riesgo.}
+\author{Br. Alberto Guerrero Hernández}
+
+\begin{document} 
+ 
+\maketitle 
+
+\selectlanguage{spanish}
+\begin{abstract}
+En este trabajo se plantea un sistema de control y alerta de riesgos automovilistico que permite prevenir, mitigar o reducir pérdidas humanas o económicas, como consecuencias de eventos como conducir en estado de ebriedad, riesgos en la salud tales como infartos, mareos, etc., a través del uso de un sistema de transmisión de alerta por medio de ls ubicación desde un teléfono celular.\\
+En el diseño de la solución obtenida se analizaron, identificaron y evaluaron variables que puedan generar un gran impacto dentro de un domicilio, para que mediante el diseño de un prototipo estas variables sean sensadas, y ante un eventual riesgo se transmiten empleando un modem GSM que permita no solo informar el evento sino tomar acciones de control, en forma remota, dependiendo del evento presentado.\\
+
+\end{abstract}
+\selectlanguage{english}
+\begin{abstract}
+In this paper, a system of automobile risk control and alert is proposed that allows to prevent, mitigate or reduce human or economic losses, such as the consequences of events such as driving while intoxicated, health risks such as heart attacks, dizziness, etc., Through the use of an alert transmission system by means of ls location from a cell phone. \\
+In the design of the obtained solution, variables that could generate a great impact within a home were analyzed, identified and evaluated, so that through the design of a prototype these variables are sensed and, if possible, they are transmitted using a GSM modem that Allowing not only to inform the event but to take control actions, remotely, depending on the event presented.\\
+\end{abstract}
+
+\section{Introducción}
+
+Actualmente en el mercado existen diversos sistemas de seguridad, cuyo costo depende de las características ofrecidas por los diferentes proveedores; se pueden encontrar sistemas de alarma locales y monitoreados que están ligados a una central de control, la cual recibe la señales provenientes de estos sistemas y son enrutadas hacia un software para que un operador realice el manejo administrativo de los eventos; aspecto que genera una dependencia por parte del usuario hacia el proveedor de servicio de seguridad. \\
+\\
+Adicionalmente, las medidas de control que ofrecen dichos sistemas están limitadas a una acción de aviso a través de una llamada al usuario o a las autoridades.\\
+La importancia de esto radica en que, con la actividad diaria de las personas que conducen de un lado a otro, en la mayoria de las ocasiones con la compañia de un adulto mayor o de un niño, se ha surgido la necesidad de desarrollar un modelo de seguridad para automoviles, que cumpla con los requerimientos y demanda de los conductores modernos. \\
+\\
+Para el desarrollo y selección del modelo por implementar, fue necesario analizar y estudiar las opciones para asi cumplir con el desarrollo de un sistema que cumpla con las expectativas del usuario a un bajo costo.\\
+La factibilidad del proyecto cuenta con varias vertientes la principal es la de seguridad social ya que el prototipo o sistema de seguridad está sujeto a varios sensores uno de presión arterial para detectar el factor de riesgo (por alcohol, drogas, ataque cardiaco, dormitación al volante), las variedades de la presión cada vez que el corazón late, bombea sangre hacia las arterias de pendiendo del caso Prehipertensión significa que puede desarrollar presión arterial alta, a menos que tome medidas.\\
+\\
+Este sistema va a estar midiendo las pulsaciones a un lapso de tiempo para detectar si hay un factor de riesgo y la app dará una señal a la central y se mandará ayuda o alertas a los sistemas de seguridad. \\
+
+\section{Marco de desarrollo}
+
+Actualmente el 62 por ciento de la población en México dispone de un teléfono inteligente (1), lo cual supone el liderazgo en el mercado mexicano. Además, en el último año este porcentaje ha crecido un 13,6 por ciento. Este crecimiento no se da solo en el caso de México, el aumento medio en los cinco principales mercados del continente del 13 por ciento, con una media del 54,6por ciento de penetración. \\
+En los Estados Unidos este porcentaje no es tan alto, tan solo un tercio de la población posee un teléfono inteligente (2), pero teniendo en cuenta su elevado número de habitantes, y con un crecimiento estimado del 29,3 por ciento en el periodo 20112015(3), es también un mercado muy atractivo. Como vemos es una industria al alza que ofrece muchas oportunidades de negocio, en la que los primeros en adaptarse serán los más beneficiados. En particular, el desarrollo de aplicaciones de salud ofrece un gran potencial de crecimiento, aprovechando las ventajas que ofrecen los dispositivos móviles:\\
+•	Acceso a la ubicación. - Permite obtener datos del usuario como su posición en caso de una emergencia médica de forma rápida, precisa y automática, ayudando a reducir el tiempo de llegada de las atenciones médicas hasta el paciente, lo cual es crucial en la mayoría de los casos (4).\\
+•	 Disponibilidad inmediata de los dispositivos. Los usuarios suelen llevar consigo un dispositivo móvil en cualquier momento, llegando incluso a sentirse incómodos si no lo tienen (5). Su elevada disponibilidad facilita al usuario acceder con facilidad y rapidez a la información que necesita.\\
+\\
+Los sensores de presión o transductores de presión son elementos que transforman la magnitud física de presión o fuerza por unidad de superficie en otra magnitud eléctrica que será la que emplearemos en los equipos de automatización o adquisición estándar. Los rangos de medida son muy amplios, desde unas milésimas de bar hasta los miles de bar. (Areosa 2014)\\
+
+
+
+\section{Hipótesis} \\
+Los accidentes automovilísticos tienen un impacto causado por la variación en la presión arterial en los automovilistas al momento de conducir en estado inapropiado de salud. \\
+ \\
+
+\section{Resultados mas importantes}
+Debido a que la mayoria de las personas entrevistadas coincidian en que si ingerian alcohol, y no solo eso, sino que la frecuencia con la que lo hacen entre semana es muy seguido, dando como resultado que la idea qeu se propone seria en realidad muy util para estos casos.
+\\
+\begin{figure}[H]
+    \includegraphics{C:/Imagen5}
+\end{figure}
+\\
+\begin{figure}[H]
+    \includegraphics{C:/beto/Imagen9}
+\end{figure}
+\\
+\begin{figure}[H]
+    \includegraphics{C:/beto/Imagen10}
+\end{figure}
+\\
+\begin{figure}[H]
+    \includegraphics{C:/beto/Imagen11}
+\end{figure}
+\\
+
+\section{Referencias}
+\\
+1. Sánchez Martinez P. España es el país con mayor penetración desmartphone en EU5 en octubre 2012; 2012. \\
+Disponible en: \\
+http://www.comscore.com/lat/Insights/Press_Releases/2012/12/\\Espana_es_el_pais_con_mayor_penetracion de_smartphone_en_EU5_en_octubre_2012 [Últimavisita: 20130518].\\
+\\
+2. Smartphone Penetration Driving Mhealth Market in US M2 Presswire; 2012. \\
+Disponible en: \\
+http://se arch.proquest.com/docview/1230195498/fulltext?accountid=17225 [Última visita: 20130518].\\
+\\
+3. Wood L. Research and Markets: Smartphone Marketin BRIC 20112015 \\Report Featuring Players HuaweiTechnologies, Nokia and Research In Motion\\ BUSINESSWIRE; 2012. 
+Disponible en: \\
+http://www.businesswire.com/news/home/20121217005991/en/\\ResearchMarketsSmartphoneMarketBRIC20112015Report [Última visita: 20130515].\\
+\\
+4. Cone DC, Middleton PM, Marashi Pour S. \\Analysisand impact of delays in ambulance to emergency de partment handovers. \\
+Emergency Medicine Australasia.2012;24(5):52533.\\
+\\
+5. Leena V, Minna I,OPS. Análisis de la situación de salud de Colombia 1994 – 1995 \\Universidad del Valle. Web site. 2000.\\Informe del 42° Consejo Directivo, OPS en su 52° sesión de comité regional. CD42/11.\\ Julio de 2000 The seventh Report of the Joint National Committee on Prevention, \\Detection, Evaluation and Treatment of High Blood Pressure.\\ JNC VII Report. JAMA 2003; 289:2560-72.\\
+\\
+6. Villar JC, Martínez LX. Impacto de los factores de riesgo cardiovascular “clásicos” \\en la población colombiana:jerarquías específicas para eventos específicos. \\Rev Colombiana de Cardiología. 2001. 9;2:249. \\
+\\
+7. Areosa, L. A. (2014). Prescribir Links y Apps para empoderar a los pacientes. \\Enfermería Presion bascular, 8(22), 44-49.\\
+
+\\
+\end{document}
